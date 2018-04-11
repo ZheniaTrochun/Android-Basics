@@ -3,8 +3,8 @@
 
     <!-- Strings related to login -->
     <string name="prompt_from">From</string>
-    <string name="prompt_till">Till</string>
-    <string name="action_show">Find</string>
-    <string name="a_m">A.M.</string>
-    <string name="p_m">P.M.</string>
+    <string name="prompt_till">To</string>
+    <string name="action_show">OK</string>
+    <string name="a_m">Morning</string>
+    <string name="p_m">Evening</string>
 </resources>
