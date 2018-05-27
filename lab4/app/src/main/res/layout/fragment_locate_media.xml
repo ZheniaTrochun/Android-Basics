@@ -1,0 +1,53 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        >
+
+        <TextView
+            android:id="@+id/itemSample"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:listPreferredItemHeight"
+            android:text="Play Sample"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/itemLocal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:listPreferredItemHeight"
+            android:text="Play Local File"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/itemSample" />
+
+        <TextView
+            android:id="@+id/itemUrl"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:listPreferredItemHeight"
+            android:text="Play URL"
+            android:textSize="16sp"
+            android:padding="4dp"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/itemLocal" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

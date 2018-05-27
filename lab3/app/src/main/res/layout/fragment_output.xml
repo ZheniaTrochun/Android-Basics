@@ -1,0 +1,47 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvFromTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="From:"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+
+        <TextView
+            android:id="@+id/tvToTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="To:"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_margin="4dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvFromTxt" />
+
+        <TextView
+            android:id="@+id/tvDeparture"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Departure time:"
+            android:textSize="16sp"
+            android:layout_margin="4dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvToTxt" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</layout>
